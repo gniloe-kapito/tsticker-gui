@@ -1,0 +1,13 @@
+# Runtime dependencies for tsticker-gui.
+# No system libraries needed — Pillow handles static stickers, ffmpeg is
+# optional (only for animated/video stickers).
+pytelegrambotapi>=4.21.0
+pydantic>=2.8.2
+loguru>=0.7.2
+keyring>=25.2.1
+aiohttp>=3.9.5
+httpx>=0.28.1
+emoji>=2.12.1
+PySide6>=6.8.0
+qasync>=0.27.1
+pillow>=11.0.0
